@@ -17,6 +17,7 @@
 		2D05A8912B825C6400190ACB /* MovemedicalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05A8902B825C6400190ACB /* MovemedicalTests.swift */; };
 		2D05A89B2B825C6400190ACB /* MovemedicalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05A89A2B825C6400190ACB /* MovemedicalUITests.swift */; };
 		2D05A89D2B825C6400190ACB /* MovemedicalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05A89C2B825C6400190ACB /* MovemedicalUITestsLaunchTests.swift */; };
+		2DC561FA2B828E3600B935F6 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2DC561F92B828E3600B935F6 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2D05A8962B825C6400190ACB /* MovemedicalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovemedicalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D05A89A2B825C6400190ACB /* MovemedicalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovemedicalUITests.swift; sourceTree = "<group>"; };
 		2D05A89C2B825C6400190ACB /* MovemedicalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovemedicalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2DC561F92B828E3600B935F6 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +103,15 @@
 		2D05A8752B825C5F00190ACB /* Movemedical */ = {
 			isa = PBXGroup;
 			children = (
-				2D05A8762B825C5F00190ACB /* AppDelegate.swift */,
-				2D05A8782B825C5F00190ACB /* SceneDelegate.swift */,
-				2D05A87A2B825C5F00190ACB /* ViewController.swift */,
-				2D05A87C2B825C5F00190ACB /* Main.storyboard */,
-				2D05A8822B825C6400190ACB /* Assets.xcassets */,
-				2D05A8842B825C6400190ACB /* LaunchScreen.storyboard */,
+				2D05A8AC2B825C9900190ACB /* AppDelegate */,
+				2D05A8A92B825C8E00190ACB /* Common */,
 				2D05A8872B825C6400190ACB /* Info.plist */,
+				2D05A87C2B825C5F00190ACB /* Main.storyboard */,
 				2D05A87F2B825C5F00190ACB /* Movemedical.xcdatamodeld */,
+				2D05A8AB2B825C9600190ACB /* Resources */,
+				2D05A8782B825C5F00190ACB /* SceneDelegate.swift */,
+				2D05A8AA2B825C9400190ACB /* Screens */,
+				2D05A87A2B825C5F00190ACB /* ViewController.swift */,
 			);
 			path = Movemedical;
 			sourceTree = "<group>";
@@ -128,6 +131,62 @@
 				2D05A89C2B825C6400190ACB /* MovemedicalUITestsLaunchTests.swift */,
 			);
 			path = MovemedicalUITests;
+			sourceTree = "<group>";
+		};
+		2D05A8A92B825C8E00190ACB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2D05A8AA2B825C9400190ACB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2D05A8AB2B825C9600190ACB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D05A8AF2B82664A00190ACB /* Assets */,
+				2D05A8AD2B82664500190ACB /* LaunchScreen */,
+				2D05A8B02B82665A00190ACB /* Localization */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2D05A8AC2B825C9900190ACB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2D05A8762B825C5F00190ACB /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2D05A8AD2B82664500190ACB /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2D05A8842B825C6400190ACB /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		2D05A8AF2B82664A00190ACB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2D05A8822B825C6400190ACB /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2D05A8B02B82665A00190ACB /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				2DC561F92B828E3600B935F6 /* Localizable.xcstrings */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +254,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
+				ORGANIZATIONNAME = CocodeLab;
 				TargetAttributes = {
 					2D05A8722B825C5F00190ACB = {
 						CreatedOnToolsVersion = 15.2;
@@ -236,6 +296,7 @@
 			files = (
 				2D05A8862B825C6400190ACB /* LaunchScreen.storyboard in Resources */,
 				2D05A8832B825C6400190ACB /* Assets.xcassets in Resources */,
+				2DC561FA2B828E3600B935F6 /* Localizable.xcstrings in Resources */,
 				2D05A87E2B825C5F00190ACB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
