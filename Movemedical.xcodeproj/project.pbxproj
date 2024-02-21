@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2D05A8772B825C5F00190ACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05A8762B825C5F00190ACB /* AppDelegate.swift */; };
-		2D05A8792B825C5F00190ACB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05A8782B825C5F00190ACB /* SceneDelegate.swift */; };
 		2D05A87B2B825C5F00190ACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05A87A2B825C5F00190ACB /* ViewController.swift */; };
 		2D05A87E2B825C5F00190ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D05A87C2B825C5F00190ACB /* Main.storyboard */; };
 		2D05A8812B825C5F00190ACB /* Movemedical.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D05A87F2B825C5F00190ACB /* Movemedical.xcdatamodeld */; };
@@ -18,6 +17,44 @@
 		2D05A89B2B825C6400190ACB /* MovemedicalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05A89A2B825C6400190ACB /* MovemedicalUITests.swift */; };
 		2D05A89D2B825C6400190ACB /* MovemedicalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05A89C2B825C6400190ACB /* MovemedicalUITestsLaunchTests.swift */; };
 		2DC561FA2B828E3600B935F6 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2DC561F92B828E3600B935F6 /* Localizable.xcstrings */; };
+		2DC562202B82917B00B935F6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC561FC2B82917A00B935F6 /* Constants.swift */; };
+		2DC562212B82917B00B935F6 /* URLFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC561FE2B82917A00B935F6 /* URLFormatter.swift */; };
+		2DC562222B82917B00B935F6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562002B82917A00B935F6 /* AppCoordinator.swift */; };
+		2DC562232B82917B00B935F6 /* NetworkLayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562022B82917A00B935F6 /* NetworkLayerService.swift */; };
+		2DC562242B82917B00B935F6 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562042B82917A00B935F6 /* Requestable.swift */; };
+		2DC562252B82917B00B935F6 /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562052B82917A00B935F6 /* ViewControllerProtocol.swift */; };
+		2DC562262B82917B00B935F6 /* ErrorHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562062B82917A00B935F6 /* ErrorHandlerProtocol.swift */; };
+		2DC562272B82917B00B935F6 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562072B82917A00B935F6 /* Configurable.swift */; };
+		2DC562282B82917B00B935F6 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562082B82917A00B935F6 /* Reusable.swift */; };
+		2DC562292B82917B00B935F6 /* NavigationBarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562092B82917A00B935F6 /* NavigationBarProtocol.swift */; };
+		2DC5622A2B82917B00B935F6 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5620A2B82917A00B935F6 /* Presentable.swift */; };
+		2DC5622B2B82917B00B935F6 /* ActivityIndicatorPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5620B2B82917A00B935F6 /* ActivityIndicatorPresentable.swift */; };
+		2DC5622C2B82917B00B935F6 /* ViewStyleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5620C2B82917A00B935F6 /* ViewStyleable.swift */; };
+		2DC5622D2B82917B00B935F6 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5620D2B82917A00B935F6 /* Loadable.swift */; };
+		2DC5622E2B82917B00B935F6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5620F2B82917A00B935F6 /* Utility.swift */; };
+		2DC5622F2B82917B00B935F6 /* AppointmentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562122B82917A00B935F6 /* AppointmentRepository.swift */; };
+		2DC562302B82917B00B935F6 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562142B82917A00B935F6 /* NetworkResponse.swift */; };
+		2DC562322B82917B00B935F6 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562162B82917A00B935F6 /* HTTPRequest.swift */; };
+		2DC562342B82917B00B935F6 /* AppointmentAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562192B82917A00B935F6 /* AppointmentAPIService.swift */; };
+		2DC562352B82917B00B935F6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5621B2B82917A00B935F6 /* Reachability.swift */; };
+		2DC562372B82917B00B935F6 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5621E2B82917B00B935F6 /* String+Extensions.swift */; };
+		2DC562382B82917B00B935F6 /* Reachability+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5621F2B82917B00B935F6 /* Reachability+Extensions.swift */; };
+		2DC5623C2B82928700B935F6 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5623B2B82928700B935F6 /* CoreDataService.swift */; };
+		2DC562482B829B5D00B935F6 /* Appointment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562462B829B5D00B935F6 /* Appointment+CoreDataClass.swift */; };
+		2DC562492B829B5D00B935F6 /* Appointment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562472B829B5D00B935F6 /* Appointment+CoreDataProperties.swift */; };
+		2DC5624B2B829BE000B935F6 /* AppointmentDBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5624A2B829BE000B935F6 /* AppointmentDBService.swift */; };
+		2DC562542B833F8400B935F6 /* AppointmentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562532B833F8400B935F6 /* AppointmentListViewModel.swift */; };
+		2DC562572B8342D700B935F6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2DC562562B8342D700B935F6 /* SnapKit */; };
+		2DC562592B8342FE00B935F6 /* AppointmentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562582B8342FE00B935F6 /* AppointmentListViewController.swift */; };
+		2DC5625C2B83435E00B935F6 /* AppointmentListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5625B2B83435E00B935F6 /* AppointmentListDataSource.swift */; };
+		2DC5625E2B83467500B935F6 /* AppointmentListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5625D2B83467500B935F6 /* AppointmentListCell.swift */; };
+		2DC562602B8349B000B935F6 /* AppointmentsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5625F2B8349B000B935F6 /* AppointmentsCoordinator.swift */; };
+		2DC562762B83C96900B935F6 /* AppointmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562752B83C96900B935F6 /* AppointmentDetailsViewController.swift */; };
+		2DC562782B83C9AF00B935F6 /* AppointmentDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562772B83C9AF00B935F6 /* AppointmentDetailsViewModel.swift */; };
+		2DC562802B8518C500B935F6 /* AppointmentDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5627F2B8518C500B935F6 /* AppointmentDetailsViewController.xib */; };
+		2DC562822B86134D00B935F6 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562812B86134D00B935F6 /* Date+Extensions.swift */; };
+		2DC562842B86189600B935F6 /* AppointmentRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562832B86189600B935F6 /* AppointmentRowViewModel.swift */; };
+		2DC562872B8625AD00B935F6 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC562862B8625AD00B935F6 /* KeyboardObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +77,6 @@
 /* Begin PBXFileReference section */
 		2D05A8732B825C5F00190ACB /* Movemedical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movemedical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D05A8762B825C5F00190ACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D05A8782B825C5F00190ACB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2D05A87A2B825C5F00190ACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D05A87D2B825C5F00190ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D05A8802B825C5F00190ACB /* Movemedical.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Movemedical.xcdatamodel; sourceTree = "<group>"; };
@@ -53,6 +89,43 @@
 		2D05A89A2B825C6400190ACB /* MovemedicalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovemedicalUITests.swift; sourceTree = "<group>"; };
 		2D05A89C2B825C6400190ACB /* MovemedicalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovemedicalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2DC561F92B828E3600B935F6 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		2DC561FC2B82917A00B935F6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2DC561FE2B82917A00B935F6 /* URLFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLFormatter.swift; sourceTree = "<group>"; };
+		2DC562002B82917A00B935F6 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		2DC562022B82917A00B935F6 /* NetworkLayerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLayerService.swift; sourceTree = "<group>"; };
+		2DC562042B82917A00B935F6 /* Requestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		2DC562052B82917A00B935F6 /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
+		2DC562062B82917A00B935F6 /* ErrorHandlerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandlerProtocol.swift; sourceTree = "<group>"; };
+		2DC562072B82917A00B935F6 /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		2DC562082B82917A00B935F6 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		2DC562092B82917A00B935F6 /* NavigationBarProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarProtocol.swift; sourceTree = "<group>"; };
+		2DC5620A2B82917A00B935F6 /* Presentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		2DC5620B2B82917A00B935F6 /* ActivityIndicatorPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorPresentable.swift; sourceTree = "<group>"; };
+		2DC5620C2B82917A00B935F6 /* ViewStyleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStyleable.swift; sourceTree = "<group>"; };
+		2DC5620D2B82917A00B935F6 /* Loadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		2DC5620F2B82917A00B935F6 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		2DC562122B82917A00B935F6 /* AppointmentRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentRepository.swift; sourceTree = "<group>"; };
+		2DC562142B82917A00B935F6 /* NetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		2DC562162B82917A00B935F6 /* HTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		2DC562192B82917A00B935F6 /* AppointmentAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentAPIService.swift; sourceTree = "<group>"; };
+		2DC5621B2B82917A00B935F6 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		2DC5621E2B82917B00B935F6 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		2DC5621F2B82917B00B935F6 /* Reachability+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reachability+Extensions.swift"; sourceTree = "<group>"; };
+		2DC5623B2B82928700B935F6 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		2DC562462B829B5D00B935F6 /* Appointment+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appointment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2DC562472B829B5D00B935F6 /* Appointment+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appointment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2DC5624A2B829BE000B935F6 /* AppointmentDBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDBService.swift; sourceTree = "<group>"; };
+		2DC562532B833F8400B935F6 /* AppointmentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentListViewModel.swift; sourceTree = "<group>"; };
+		2DC562582B8342FE00B935F6 /* AppointmentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentListViewController.swift; sourceTree = "<group>"; };
+		2DC5625B2B83435E00B935F6 /* AppointmentListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentListDataSource.swift; sourceTree = "<group>"; };
+		2DC5625D2B83467500B935F6 /* AppointmentListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentListCell.swift; sourceTree = "<group>"; };
+		2DC5625F2B8349B000B935F6 /* AppointmentsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsCoordinator.swift; sourceTree = "<group>"; };
+		2DC562752B83C96900B935F6 /* AppointmentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailsViewController.swift; sourceTree = "<group>"; };
+		2DC562772B83C9AF00B935F6 /* AppointmentDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailsViewModel.swift; sourceTree = "<group>"; };
+		2DC5627F2B8518C500B935F6 /* AppointmentDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppointmentDetailsViewController.xib; sourceTree = "<group>"; };
+		2DC562812B86134D00B935F6 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		2DC562832B86189600B935F6 /* AppointmentRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentRowViewModel.swift; sourceTree = "<group>"; };
+		2DC562862B8625AD00B935F6 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC562572B8342D700B935F6 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,9 +181,7 @@
 				2D05A8A92B825C8E00190ACB /* Common */,
 				2D05A8872B825C6400190ACB /* Info.plist */,
 				2D05A87C2B825C5F00190ACB /* Main.storyboard */,
-				2D05A87F2B825C5F00190ACB /* Movemedical.xcdatamodeld */,
 				2D05A8AB2B825C9600190ACB /* Resources */,
-				2D05A8782B825C5F00190ACB /* SceneDelegate.swift */,
 				2D05A8AA2B825C9400190ACB /* Screens */,
 				2D05A87A2B825C5F00190ACB /* ViewController.swift */,
 			);
@@ -136,6 +208,16 @@
 		2D05A8A92B825C8E00190ACB /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				2DC561FF2B82917A00B935F6 /* AppCoordinator */,
+				2DC561FB2B82917A00B935F6 /* Constants */,
+				2DC562102B82917A00B935F6 /* Data */,
+				2DC5621C2B82917B00B935F6 /* Extensions */,
+				2DC562012B82917A00B935F6 /* NetworkLayerService */,
+				2DC561FD2B82917A00B935F6 /* PropertyWrappers */,
+				2DC562032B82917A00B935F6 /* Protocols */,
+				2DC562852B8625A400B935F6 /* Publishers */,
+				2DC5621A2B82917A00B935F6 /* Reachability */,
+				2DC5620E2B82917A00B935F6 /* Utility */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -143,6 +225,7 @@
 		2D05A8AA2B825C9400190ACB /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				2DC5624C2B833EE400B935F6 /* Appointments */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -151,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				2D05A8AF2B82664A00190ACB /* Assets */,
+				2DC5623D2B8294E300B935F6 /* CoreDataModel */,
 				2D05A8AD2B82664500190ACB /* LaunchScreen */,
 				2D05A8B02B82665A00190ACB /* Localization */,
 			);
@@ -189,6 +273,240 @@
 			path = Localization;
 			sourceTree = "<group>";
 		};
+		2DC561FB2B82917A00B935F6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2DC561FC2B82917A00B935F6 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2DC561FD2B82917A00B935F6 /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				2DC561FE2B82917A00B935F6 /* URLFormatter.swift */,
+			);
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
+		2DC561FF2B82917A00B935F6 /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562002B82917A00B935F6 /* AppCoordinator.swift */,
+			);
+			path = AppCoordinator;
+			sourceTree = "<group>";
+		};
+		2DC562012B82917A00B935F6 /* NetworkLayerService */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562022B82917A00B935F6 /* NetworkLayerService.swift */,
+			);
+			path = NetworkLayerService;
+			sourceTree = "<group>";
+		};
+		2DC562032B82917A00B935F6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5620B2B82917A00B935F6 /* ActivityIndicatorPresentable.swift */,
+				2DC562072B82917A00B935F6 /* Configurable.swift */,
+				2DC562062B82917A00B935F6 /* ErrorHandlerProtocol.swift */,
+				2DC5620D2B82917A00B935F6 /* Loadable.swift */,
+				2DC562092B82917A00B935F6 /* NavigationBarProtocol.swift */,
+				2DC5620A2B82917A00B935F6 /* Presentable.swift */,
+				2DC562042B82917A00B935F6 /* Requestable.swift */,
+				2DC562082B82917A00B935F6 /* Reusable.swift */,
+				2DC562052B82917A00B935F6 /* ViewControllerProtocol.swift */,
+				2DC5620C2B82917A00B935F6 /* ViewStyleable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2DC5620E2B82917A00B935F6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5620F2B82917A00B935F6 /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2DC562102B82917A00B935F6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562392B82926A00B935F6 /* CoreData */,
+				2DC562112B82917A00B935F6 /* Repository */,
+				2DC562132B82917A00B935F6 /* Model */,
+				2DC562182B82917A00B935F6 /* DAL */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2DC562112B82917A00B935F6 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562122B82917A00B935F6 /* AppointmentRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2DC562132B82917A00B935F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562462B829B5D00B935F6 /* Appointment+CoreDataClass.swift */,
+				2DC562472B829B5D00B935F6 /* Appointment+CoreDataProperties.swift */,
+				2DC562162B82917A00B935F6 /* HTTPRequest.swift */,
+				2DC562142B82917A00B935F6 /* NetworkResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DC562182B82917A00B935F6 /* DAL */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562192B82917A00B935F6 /* AppointmentAPIService.swift */,
+				2DC5624A2B829BE000B935F6 /* AppointmentDBService.swift */,
+			);
+			path = DAL;
+			sourceTree = "<group>";
+		};
+		2DC5621A2B82917A00B935F6 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5621B2B82917A00B935F6 /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		2DC5621C2B82917B00B935F6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562812B86134D00B935F6 /* Date+Extensions.swift */,
+				2DC5621F2B82917B00B935F6 /* Reachability+Extensions.swift */,
+				2DC5621E2B82917B00B935F6 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2DC562392B82926A00B935F6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5623B2B82928700B935F6 /* CoreDataService.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		2DC5623D2B8294E300B935F6 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2D05A87F2B825C5F00190ACB /* Movemedical.xcdatamodeld */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		2DC5624C2B833EE400B935F6 /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5625A2B83430700B935F6 /* Coordinator */,
+				2DC562522B833F5000B935F6 /* Details */,
+				2DC562512B833F4A00B935F6 /* List */,
+			);
+			path = Appointments;
+			sourceTree = "<group>";
+		};
+		2DC5624D2B833EF100B935F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5625D2B83467500B935F6 /* AppointmentListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DC5624E2B833EF400B935F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562532B833F8400B935F6 /* AppointmentListViewModel.swift */,
+				2DC562832B86189600B935F6 /* AppointmentRowViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DC5624F2B833EF700B935F6 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5625B2B83435E00B935F6 /* AppointmentListDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2DC562502B833EFC00B935F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562582B8342FE00B935F6 /* AppointmentListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2DC562512B833F4A00B935F6 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562502B833EFC00B935F6 /* Controller */,
+				2DC5624F2B833EF700B935F6 /* DataSource */,
+				2DC5624D2B833EF100B935F6 /* View */,
+				2DC5624E2B833EF400B935F6 /* ViewModel */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		2DC562522B833F5000B935F6 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562712B83C92800B935F6 /* Controller */,
+				2DC562732B83C93400B935F6 /* View */,
+				2DC562722B83C92E00B935F6 /* ViewModel */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		2DC5625A2B83430700B935F6 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2DC5625F2B8349B000B935F6 /* AppointmentsCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2DC562712B83C92800B935F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562752B83C96900B935F6 /* AppointmentDetailsViewController.swift */,
+				2DC5627F2B8518C500B935F6 /* AppointmentDetailsViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2DC562722B83C92E00B935F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562772B83C9AF00B935F6 /* AppointmentDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DC562732B83C93400B935F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DC562852B8625A400B935F6 /* Publishers */ = {
+			isa = PBXGroup;
+			children = (
+				2DC562862B8625AD00B935F6 /* KeyboardObserver.swift */,
+			);
+			path = Publishers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,6 +523,9 @@
 			dependencies = (
 			);
 			name = Movemedical;
+			packageProductDependencies = (
+				2DC562562B8342D700B935F6 /* SnapKit */,
+			);
 			productName = Movemedical;
 			productReference = 2D05A8732B825C5F00190ACB /* Movemedical.app */;
 			productType = "com.apple.product-type.application";
@@ -278,6 +599,9 @@
 				Base,
 			);
 			mainGroup = 2D05A86A2B825C5F00190ACB;
+			packageReferences = (
+				2DC562552B8342D700B935F6 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 2D05A8742B825C5F00190ACB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -295,6 +619,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D05A8862B825C6400190ACB /* LaunchScreen.storyboard in Resources */,
+				2DC562802B8518C500B935F6 /* AppointmentDetailsViewController.xib in Resources */,
 				2D05A8832B825C6400190ACB /* Assets.xcassets in Resources */,
 				2DC561FA2B828E3600B935F6 /* Localizable.xcstrings in Resources */,
 				2D05A87E2B825C5F00190ACB /* Main.storyboard in Resources */,
@@ -322,10 +647,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC562212B82917B00B935F6 /* URLFormatter.swift in Sources */,
+				2DC562482B829B5D00B935F6 /* Appointment+CoreDataClass.swift in Sources */,
+				2DC562202B82917B00B935F6 /* Constants.swift in Sources */,
+				2DC562302B82917B00B935F6 /* NetworkResponse.swift in Sources */,
+				2DC562382B82917B00B935F6 /* Reachability+Extensions.swift in Sources */,
 				2D05A87B2B825C5F00190ACB /* ViewController.swift in Sources */,
+				2DC562242B82917B00B935F6 /* Requestable.swift in Sources */,
 				2D05A8772B825C5F00190ACB /* AppDelegate.swift in Sources */,
+				2DC562322B82917B00B935F6 /* HTTPRequest.swift in Sources */,
+				2DC562372B82917B00B935F6 /* String+Extensions.swift in Sources */,
+				2DC562872B8625AD00B935F6 /* KeyboardObserver.swift in Sources */,
+				2DC562232B82917B00B935F6 /* NetworkLayerService.swift in Sources */,
+				2DC5622E2B82917B00B935F6 /* Utility.swift in Sources */,
+				2DC5622F2B82917B00B935F6 /* AppointmentRepository.swift in Sources */,
+				2DC562282B82917B00B935F6 /* Reusable.swift in Sources */,
+				2DC562782B83C9AF00B935F6 /* AppointmentDetailsViewModel.swift in Sources */,
+				2DC562272B82917B00B935F6 /* Configurable.swift in Sources */,
+				2DC562352B82917B00B935F6 /* Reachability.swift in Sources */,
+				2DC5625E2B83467500B935F6 /* AppointmentListCell.swift in Sources */,
+				2DC562592B8342FE00B935F6 /* AppointmentListViewController.swift in Sources */,
+				2DC562842B86189600B935F6 /* AppointmentRowViewModel.swift in Sources */,
+				2DC562762B83C96900B935F6 /* AppointmentDetailsViewController.swift in Sources */,
+				2DC5622A2B82917B00B935F6 /* Presentable.swift in Sources */,
+				2DC5623C2B82928700B935F6 /* CoreDataService.swift in Sources */,
 				2D05A8812B825C5F00190ACB /* Movemedical.xcdatamodeld in Sources */,
-				2D05A8792B825C5F00190ACB /* SceneDelegate.swift in Sources */,
+				2DC562292B82917B00B935F6 /* NavigationBarProtocol.swift in Sources */,
+				2DC562542B833F8400B935F6 /* AppointmentListViewModel.swift in Sources */,
+				2DC5622D2B82917B00B935F6 /* Loadable.swift in Sources */,
+				2DC562602B8349B000B935F6 /* AppointmentsCoordinator.swift in Sources */,
+				2DC5622C2B82917B00B935F6 /* ViewStyleable.swift in Sources */,
+				2DC562492B829B5D00B935F6 /* Appointment+CoreDataProperties.swift in Sources */,
+				2DC5622B2B82917B00B935F6 /* ActivityIndicatorPresentable.swift in Sources */,
+				2DC562342B82917B00B935F6 /* AppointmentAPIService.swift in Sources */,
+				2DC562822B86134D00B935F6 /* Date+Extensions.swift in Sources */,
+				2DC562262B82917B00B935F6 /* ErrorHandlerProtocol.swift in Sources */,
+				2DC5625C2B83435E00B935F6 /* AppointmentListDataSource.swift in Sources */,
+				2DC5624B2B829BE000B935F6 /* AppointmentDBService.swift in Sources */,
+				2DC562252B82917B00B935F6 /* ViewControllerProtocol.swift in Sources */,
+				2DC562222B82917B00B935F6 /* AppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,6 +1032,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2DC562552B8342D700B935F6 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2DC562562B8342D700B935F6 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DC562552B8342D700B935F6 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		2D05A87F2B825C5F00190ACB /* Movemedical.xcdatamodeld */ = {
